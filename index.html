@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Looping Gifs</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #gifs > img {
+      display: block;
+      float: left;
+      width: 50vw;
+      height: 50vh;
+      object-fit: cover;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>A cool idea</h1>
+      <div class="lead">I saw <a href="http://geelen.github.io/loopgifs">a demo</a> and a <a href="https://youtu.be/iukBMY4apvI">guide how the code was produced</a>. It fetches looping gifs from Reddit and displays them neatly. ES6 Javascript and best viewed with Chrome. The page is a bit heavy for Firefox. I thought: "let me copy that to understand how the code works". So I did! The source was found on <a href="https://github.com/geelen/loopgifs">Github</a>.<p/>
+
+      </div>
+    </div>
+  </div>
+  <div id="gifs"></div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- development
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>System.import("lib/main")</script>
+  -->
+
+  <!-- production -->
+  <script src="build.js"></script>
+
+  </body>
+</html>
