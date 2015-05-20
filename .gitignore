@@ -1,3 +1,5 @@
 jspm_packages/
 *~
 build*
+nginx/loopingifs.panic.nu
+node_modules/
