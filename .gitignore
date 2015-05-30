@@ -4,4 +4,5 @@ build*
 nginx/loopingifs.panic.nu.pem
 nginx/loopingifs.panic.nu.key
 node_modules/
+nginx/dhparam.pem
 **/#*
